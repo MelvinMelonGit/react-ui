@@ -18,11 +18,6 @@ export const navLinks1 = [
         id: 3,
         title: 'Challenges',
         href: "/challenges"
-    },
-    {
-        id: 4,
-        title: 'Admin',
-        href: "/admin"
     }
 ]
 

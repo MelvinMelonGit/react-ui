@@ -1,5 +1,10 @@
 export const navLinks2 = [
     {
+        id: 4,
+        title: 'Admin',
+        href: "/admin"
+    },
+    {
         id: 5,
         title: 'Team',
         href: "/team"
@@ -11,8 +16,8 @@ export const navLinks2 = [
     },
     {
         id: 7,
-        title: 'Login',
-        href: "/login"
+        title: 'Logout',
+        href: "/"
     }
 ]
 
