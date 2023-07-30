@@ -9,6 +9,8 @@ import NavBar from "./solveItComponents/navBar"
 import './App.css'
 import Home from "./solveItPages/Home"
 import Login from "./solveItPages/Login"
+import SignUp from "./solveItPages/SignUp"
+import Form from "./solveItPages/Form"
 import Dashboard from "./solveItPages/Dashboard"
 import ErrorPage from "./solveItPages/ErrorPage"
 
@@ -18,6 +20,8 @@ const router = createBrowserRouter(
       <Route index element={<Home/>} />
       <Route path="/login" element={<Login/>} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/sign-up" element={<SignUp />} />
+      <Route path="/form" element={<Form />} />
       <Route path="*" element={<ErrorPage />} />
     </Route>
   )

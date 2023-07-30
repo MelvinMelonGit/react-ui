@@ -1,28 +1,28 @@
-export const navLinks = [
+export const navLinks1 = [
     {
         id: 0,
-        title: 'Home',
+        title: 'SolveIt',
         href: "/"
     },
     {
         id: 1,
-        title: 'Login',
-        href: "/login"
+        title: 'Teams',
+        href: "/teams"
     },
     {
         id: 2,
-        title: 'Dashboard',
-        href: "/dashboard"
+        title: 'Scoreboard',
+        href: "/scoreboard"
     },
     {
         id: 3,
-        title: 'SignUp',
-        href: "/sign-up"
+        title: 'Challenges',
+        href: "/challenges"
     },
     {
         id: 4,
-        title: 'Form',
-        href: "/form"
+        title: 'Admin',
+        href: "/admin"
     }
 ]
 
