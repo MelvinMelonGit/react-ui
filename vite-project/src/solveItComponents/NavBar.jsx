@@ -49,6 +49,5 @@ export default function NavBar() {
 //3. set value like {"user": "name"} inside localstorage or cookie ***assumming your backend has protected resource
 //4. after that your state will always be "logged in"
 //5. if press logout, then change login state back to false
-
-
+//6.
         
